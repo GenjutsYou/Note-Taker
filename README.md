@@ -1,32 +1,37 @@
-# Note Taker
+# Note-Taker
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
 
-The Note Taker is an application that allows users to write and save notes. It helps users organize their thoughts and keep track of tasks they need to complete.
+Write and save notes to keep track of tasks
 
 ## Table of Contents
 
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
+- [License](#license)
 - [Features](#features)
+- [Contribution](#contribution)
+- [Tests](#tests)
+- [Contact](#contact)
 - [Link](#link)
-
-## Installation
-
-No installation is required. Simply open the web page in a browser.
-
-## Usage
-
-Open the Note Taker application in a browser, write and save notes to organize your thoughts and tasks.
 
 ## Credits
 
 Arun Mundackal
 
-## Features
+## License
 
-The Note Taker allows you to create, edit, and save notes, providing an efficient way to manage and track your information.
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+
+## Contact
+For any questions or inquiries, please reach out to me:
+- Email: arunmundackal7@gmail.com
+- GitHub: [GenjutsYou](https://github.com/GenjutsYou)
 
 ## Link
-[Note Taker]()
+
+[Note-Taker](https://genjutsyou.github.io/Note-Taker/)
+
