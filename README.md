@@ -9,14 +9,14 @@ Write and save notes to keep track of tasks
 ## Table of Contents
 
 - [Installation](#installation)
-- [Usage](#usage)
 - [Credits](#credits)
 - [License](#license)
-- [Features](#features)
-- [Contribution](#contribution)
-- [Tests](#tests)
 - [Contact](#contact)
 - [Link](#link)
+
+## Installation
+
+    git clone git@github.com:GenjutsYou/Note-Taker.git
 
 ## Credits
 
