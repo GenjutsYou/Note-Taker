@@ -2,7 +2,7 @@ const express = require('express');
 const path = require('path');
 const fs = require('fs');
 const { v4: uuidv4 } = require('uuid');
-
+const db = require('./db/db.json');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
@@ -16,9 +16,9 @@ app.get('/notes', (req, res) => {
   res.sendFile(path.join(__dirname, '/public/notes.html'));
 });
 
-app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, '/puclic/index.html'));
-});
+// app.get('*', (req, res) => {
+//   res.sendFile(path.join(__dirname, '/public/index.html'));
+// });
 
 // API Routes
 app.get('/api/notes', (req, res) => {
@@ -44,6 +44,14 @@ app.post('/api/notes', (req, res) => {
   });
 });
 
+// app.post('/api/notes', (req, res) => {
+//   const newNote = req.body;
+//   newNote.id = uuidv4();
+//   db.push(newNote)
+//   fs.writeFileSync('./db/db.json', JSON.stringify(db))
+//   res.json(db)
+// });
+
 app.delete('/api/notes/:id', (req, res) => {
   const noteId = req.params.id;
 
@@ -58,6 +66,10 @@ app.delete('/api/notes/:id', (req, res) => {
       res.sendStatus(200);
     });
   });
+});
+
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, '/public/index.html'));
 });
 
 // Start the server
