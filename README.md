@@ -33,5 +33,5 @@ For any questions or inquiries, please reach out to me:
 
 ## Link
 
-[Note-Taker](https://genjutsyou.github.io/Note-Taker/)
+[Note-Taker](https://note-taker-arun-6d187129a3c0.herokuapp.com/)
 
